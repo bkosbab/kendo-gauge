@@ -28,6 +28,7 @@
     <Folder Include="App_Resources\Android\drawable-ldpi">
       <Platform>Android</Platform>
     </Folder>
+    <Folder Include="images" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\iOS\icon.png" />
@@ -40,7 +41,7 @@
     <Resource Include="App_Resources\iOS\Icon-Small-50@2x.png" />
     <Resource Include="App_Resources\iOS\Default.png" />
     <Resource Include="App_Resources\iOS\Default@2x.png" />
-  <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
     <Resource Include="App_Resources\iOS\Default-Portrait.png" />
     <Resource Include="App_Resources\iOS\Default-Landscape.png" />
     <Resource Include="App_Resources\iOS\Default-Portrait@2x.png" />
@@ -52,14 +53,24 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\gauge-container-partial.png" />
+    <Content Include="images\gauge-container.png" />
+    <Content Include="images\linear-gauge-container-h.png" />
+    <Content Include="images\linear-gauge-container.png" />
     <Content Include="index.html" />
-    <Content Include="kendo\js\jquery.min.js" />
-    <Content Include="kendo\js\kendo.mobile.min.js" />
-    <Content Include="kendo\styles\images\back.png" />
-    <Content Include="kendo\styles\images\KendoUI.ttf" />
-    <Content Include="kendo\styles\images\KendoUI.woff" />
-    <Content Include="kendo\styles\kendo.mobile.all.min.css" />
-    <Content Include="scripts\hello-world.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\kendo.all.min.js" />
+    <Content Include="js\kendo.dataviz.core.min.js" />
+    <Content Include="js\kendo.dataviz.gauge.min.js" />
+    <Content Include="js\kendo.dataviz.svg.min.js" />
+    <Content Include="js\kendo.dataviz.vml.min.js" />
+    <Content Include="js\kendo.mobile.min.js" />
+    <Content Include="styles\kendo.default.min.css" />
+    <Content Include="styles\images\back.png" />
+    <Content Include="styles\images\KendoUI.ttf" />
+    <Content Include="styles\images\KendoUI.woff" />
+    <Content Include="styles\kendo.common.min.css" />
+    <Content Include="styles\kendo.mobile.all.min.css" />
     <Content Include="styles\main.css" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
